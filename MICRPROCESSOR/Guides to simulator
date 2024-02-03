@@ -1,0 +1,21 @@
+Guidelines to run 8085 simulator by Jubin.
+About Jubin's 8085 simulator
+
+With the academic learning purpose in mind the 8085 simulator software is designed. It helps in get started easily with example codes, and to 
+learn the architecture playfully. It also provides a trainer kit as an appealing functional alternative to real hardware. The users can 
+write assembly code easily and get results quickly without even having the actual hardware.
+
+This 8085 simulator is made with java. So it runs with java. Unless you have Java in your computer your Jubin.jar will open with zip-extractor
+applications like WinRar. So in order to use this program you'll need the jre-16 get downloaded to your computer.
+
+Steps to install and setup 8085 simulator by Jubin.
+Step 1: Download the folder Jubin from above.
+Step 2: Download the jre-6u16-windows-i586-s.exe.
+Step 3: Run jre-6u16-windows-i586-s.exe and give it the admin. permission.
+(*NOTE*: It is recommended to let the files and folders of jre-6u16-windows-i586-s.exe be extracted/executed in its default location)
+Step 4: Open Jubin folder and right click on Jubi.jar and follow the steps below:
+        i) Click on open with.
+        ii) Click on Choose another app.
+        iii) Find the JRE folder and open bin folder inside the jre folder
+        iv) Find java.exe and click on java.exe
+Step 5: Write the code and assemble it.
