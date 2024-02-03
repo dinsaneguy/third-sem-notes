@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <form >
+            <fieldset style="height:100%; width:22%;">
+                <legend>About Me</legend>
+                <table>
+                <tr>
+                    <td><label for="name">Name<sup><font color="red">*</font></sup>:</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email<sup><font color="red">*</font></sup>:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="inv">Investment:</label></td>
+                    <td><select name="first" id="fnum">
+                        <option default></option>
+                        <option>+less than 500000</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date Joined<sup><font color="red">*</font></sup>:</label></td>
+                    <td><input type="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Active"></td>
+                </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="OK">
+            <input type="reset" value="Cancel">
+        </form>
+</body>
+</html>
